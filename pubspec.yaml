@@ -1,0 +1,21 @@
+name: package_name
+description: A short descritpion of the pacakge
+version: 0.0.1
+# repository: https://github.com/charter-projects/package
+publish_to: none
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+  # flutter: ">=1.17.0" # If flutter package
+
+dependencies:
+  # flutter: # If flutter package
+  #   sdk: flutter
+
+dev_dependencies:
+  charter_analysis:
+    git: https://github.com/charter-projects/charter-analysis
+  commitlint_cli: ^0.7.1
+  husky: ^0.1.6
+
+# flutter: # If flutter package
