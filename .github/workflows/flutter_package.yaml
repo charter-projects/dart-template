@@ -1,0 +1,13 @@
+name: Flutter Verify
+
+on: pull_request
+
+jobs:
+  build:
+    if: false
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
+    with:
+      coverage_excludes: '*.g.dart *.freezed.dart'
+      test_recursion: true
+    secrets:
+      ssh_key: ${{secrets.EXAMPLE_KEY}}
