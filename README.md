@@ -5,11 +5,12 @@
 
 <h1 align="center" id="title">Charter Project Repository</h1>
 
-<!-- <p align="center"> -->
-<!-- <img src="https://img.shields.io/badge/maintained%20with-melos-f700ff.svg" alt="melos-shields"> -->
-<!-- Workflow badge -->
-<!-- <img src="https://github.com/charter-projects/charter-project/actions/workflows/dart_package.yml/badge.svg" alt="workflow-shields"> -->
-<!-- </p> -->
+<p align="center">
+    <img src="https://img.shields.io/badge/maintained%20with-melos-f700ff.svg" alt="melos-shields">
+    <img src="https://github.com/charter-projects/dart-template/actions/workflows/semantic_pr.yaml/badge.svg" alt="semantic_pr-shields">
+    <img src="https://github.com/charter-projects/dart-template/actions/workflows/dart_package.yaml/badge.svg" alt="dart_package-shields">
+    <img src="https://github.com/charter-projects/dart-template/actions/workflows/flutter_package.yaml/badge.svg" alt="flutter_package-shields">
+</p>
 
 <p id="description" align="center">Repository description</p>
 
