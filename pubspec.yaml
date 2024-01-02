@@ -1,5 +1,5 @@
 name: package_name
-description: A short descritpion of the pacakge
+description: A short description of the package
 version: 0.0.1
 # repository: https://github.com/charter-projects/package
 publish_to: none
@@ -17,5 +17,8 @@ dev_dependencies:
     git: https://github.com/charter-projects/charter-analysis
   commitlint_cli: ^0.7.1
   husky: ^0.1.6
+  test: ^1.25.0 # If dart package
+  # flutter_test: # If flutter package
+  #   sdk: flutter
 
 # flutter: # If flutter package
